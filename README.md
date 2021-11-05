@@ -8,8 +8,7 @@ __**Please don't change the footer text of the embeds.**__
 
 **Don't forget to give a star if you like it :)**
 
-# Screenshot
-https://cdn.discordapp.com/attachments/847283544803508257/906081463571722270/unknown_2.png
+![Screenshot](https://cdn.discordapp.com/attachments/847283544803508257/906081463571722270/unknown_2.png)
 
 # Setup
 ```pip install --upgrade discord-components```
