@@ -1,6 +1,7 @@
 ![Discord](https://img.shields.io/discord/761623845119328257?color=blue&label=Discord&logo=discord&style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/Polsulpicien/discord.py-advanced-calculator?style=for-the-badge)
 ![Version](https://img.shields.io/github/v/release/polsulpicien/discord.py-advanced-calculator?color=red&label=Version&logo=github&style=for-the-badge)
+![Downloads](https://img.shields.io/github/downloads/polsulpicien/discord.py-advanced-calculator/total?color=green&logo=github&style=for-the-badge)
 
 # Welcome!
 This is an Advanced Calculator maybe with Discord Buttons in python.  
