@@ -19,8 +19,6 @@ def calculate(exp:str):
     try:
         result = eval(o, {'sqrt': sqrt})
     except:
-        #result=f'Error, invalid syntax: {exp}'
-        #result=
         result=f"Syntax Error!\nDon't forget the sign(s) ('×', '÷', ...).\nnot: 3(9+1) but 3×(9+1)"
     return result
 
