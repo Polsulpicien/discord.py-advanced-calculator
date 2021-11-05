@@ -1,3 +1,9 @@
+###############################################
+#       Made by Polsulpicien#5020             #    
+#                                             #
+# DON'T CHANGE THE FOOTER TEXT OF THE EMBEDS  #
+###############################################
+
 import discord
 from discord.ext import commands
 
