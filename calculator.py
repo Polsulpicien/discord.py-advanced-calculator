@@ -28,13 +28,12 @@ SOFTWARE.
 # DON'T CHANGE THE FOOTER TEXT OF THE EMBEDS #
 ##############################################
 
-import asyncio
-
 import discord
 from discord.ext import commands
 
 from discord_components import Button, ButtonStyle, InteractionType
 from math import *
+import asyncio
 
 def calculate(exp:str):
     result=''
