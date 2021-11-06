@@ -325,4 +325,4 @@ async def calcu(ctx):
                     else:
                         await res.respond(embed=e, components=buttons_two, type=7)
                             
-client.run("BOT TOKEN HERE")
+client.run("BOT TOKEN HERE") 
