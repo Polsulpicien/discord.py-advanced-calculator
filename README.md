@@ -17,6 +17,15 @@ If you need help, ask on the **[support server](https://discord.gg/xm9QX3Q)**
 # Setup
 ```pip install --upgrade discord-components```
 
+Choose between the Main File or the Cog File
+
+```Main File:
+Add you Bot Token to the last line
+```
+```Cog File:
+Add the File to your Bot's Cogs File
+```
+
 # License
 This project is under the MIT License.
 
