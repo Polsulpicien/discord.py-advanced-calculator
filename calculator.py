@@ -28,6 +28,8 @@ SOFTWARE.
 # DON'T CHANGE THE FOOTER TEXT OF THE EMBEDS #
 ##############################################
 
+import asyncio
+
 import discord
 from discord.ext import commands
 
