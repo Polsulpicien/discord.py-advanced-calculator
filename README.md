@@ -19,10 +19,12 @@ If you need help, ask on the **[support server](https://discord.gg/xm9QX3Q)**
 
 Choose between the Main File or the Cog File
 
-```Main File:
+```
+Main File:
 Add you Bot Token to the last line
 ```
-```Cog File:
+```
+Cog File:
 Add the File to your Bot's Cogs File
 ```
 
