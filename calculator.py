@@ -227,7 +227,7 @@ def input_formatter(original:str, new:str):
         affichage='|'
         id=1
         e = discord.Embed(title=f'{ctx.author}\'s calculator', description=f'```{affichage}```', color=int("2f3136", 16))
-        e.set_footer(text=f"github.com/Polsulpicien/discord.py-advanced-calculator")
+        e.set_footer(text=f"https://github.com/Polsulpicien")
         expression=''
         m = await ctx.send(components=self.buttons_one, embed=e)
         
@@ -239,13 +239,13 @@ def input_formatter(original:str, new:str):
                 res = await self.client.wait_for('button_click', check=checkUp, timeout=60) 
             except asyncio.TimeoutError:
                 a = discord.Embed(title=f'{ctx.author}\'s calculator', description=f'```{affichage}```', color=int("2f3136", 16))
-                a.set_footer(text=f"github.com/Polsulpicien/discord.py-advanced-calculator")
+                a.set_footer(text=f"https://github.com/Polsulpicien")
                 return await m.edit(embed=a)
             else:
                 if str(res.author) == str(res.message.embeds[0].title.split("'s calculator")[0]):
                     if res.component.id == 'Exit':
                         q = discord.Embed(title=f'{ctx.author}\'s calculator', description=f'{res.message.embeds[0].description}', color=int("2f3136", 16))
-                        q.set_footer(text=f"github.com/Polsulpicien/discord.py-advanced-calculator")
+                        q.set_footer(text=f"https://github.com/Polsulpicien")
                         return await res.respond(embed=q, components=[], type=7)
                     elif res.component.id == '⌫':
                         lst=list(res.message.embeds[0].description.replace('`',''))
@@ -298,12 +298,12 @@ def input_formatter(original:str, new:str):
                     elif res.component.id == '400':
                         id=2
                         e = discord.Embed(title=f'{ctx.author}\'s calculator', description=f'```{affichage}```', color=int("2f3136", 16))
-                        e.set_footer(text=f"github.com/Polsulpicien/discord.py-advanced-calculator")
+                        e.set_footer(text=f"https://github.com/Polsulpicien")
                         await res.respond(embed=e, components=self.buttons_two, type=7)
                     elif res.component.id == '401':
                         id=1
                         e = discord.Embed(title=f'{ctx.author}\'s calculator', description=f'```{affichage}```', color=int("2f3136", 16))
-                        e.set_footer(text=f"github.com/Polsulpicien/discord.py-advanced-calculator")
+                        e.set_footer(text=f"https://github.com/Polsulpicien")
                         await res.respond(embed=e, components=self.buttons_one, type=7)
                     else:
                         if '=' in affichage:
@@ -312,7 +312,7 @@ def input_formatter(original:str, new:str):
                         affichage=expression
                     if res.component.id != '400' and res.component.id!='401':
                         e = discord.Embed(title=f'{ctx.author}\'s calculator', description=f'```{affichage}```', color=int("2f3136", 16))
-                        e.set_footer(text=f"github.com/Polsulpicien/discord.py-advanced-calculator")
+                        e.set_footer(text=f"https://github.com/Polsulpicien")
                         if id==1:
                             await res.respond(embed=e, components=self.buttons_one, type=7)
                         else:
