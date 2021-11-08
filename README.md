@@ -11,6 +11,11 @@
     <h3>An Advanced Calculator maybe with Discord Buttons in python</h3>
 </p>
 
+  • [Introduction](https://github.com/Polsulpicien/discord.py-advanced-calculator/#introduction)  
+  • [Screenshots](https://github.com/Polsulpicien/discord.py-advanced-calculator/#screenshots)  
+  • [Setup](https://github.com/Polsulpicien/discord.py-advanced-calculator/#setup)  
+  • [License](https://github.com/Polsulpicien/discord.py-advanced-calculator/#license) 
+
 ## Introduction
   
 This was the first version of the calculator, made for my discord bot, **[Polsu](https://github.com/Polsu-Discord)** using discord-components.  
@@ -18,10 +23,6 @@ This was the first version of the calculator, made for my discord bot, **[Polsu]
 If you need help, ask on the **[support server](https://discord.gg/xm9QX3Q)**  
 **Please don't change the footer text of the embeds.**  
 **Don't forget to give a star if you like it :)**
-
-  • [Screenshots](https://github.com/Polsulpicien/discord.py-advanced-calculator/#screenshots)  
-  • [Setup](https://github.com/Polsulpicien/discord.py-advanced-calculator/#setup)  
-  • [License](https://github.com/Polsulpicien/discord.py-advanced-calculator/#license) 
 
 ## Screenshots
 
