@@ -29,7 +29,7 @@ Add the File to your Bot's Cogs File
 ```
 
 # License
-This project is under the MIT License.
+This project is under the [MIT License](https://github.com/Polsulpicien/discord.py-advanced-calculator/blob/main/LICENSE)
 
 # Author
 Made by `Polsulpicien#5020`
