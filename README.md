@@ -21,7 +21,7 @@ Choose between the Main File or the Cog File
 
 ```
 Main File:
-Add you Bot Token to the last line
+Add you Bot Token in client.run(Discord_token)
 ```
 ```
 Cog File:
