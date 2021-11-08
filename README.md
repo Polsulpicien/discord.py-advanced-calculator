@@ -38,7 +38,7 @@ __Step 2:__
 Choose if you want between the [Main.py](https://github.com/Polsulpicien/discord.py-advanced-calculator/blob/main/main.py) or the [Cog.py](https://github.com/Polsulpicien/discord.py-advanced-calculator/blob/main/calculator.py)
 
 • For the Main.py File, you need to add your Discord Bot Token (which you can find **[HERE](https://discord.com/developers/applications)**), to the **[last line](https://github.com/Polsulpicien/discord.py-advanced-calculator/blob/main/main.py#L328)**:
-```
+```py
 client.run("TOKEN")
 ```
 
