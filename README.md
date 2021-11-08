@@ -15,8 +15,7 @@ If you need help, ask on the **[support server](https://discord.gg/xm9QX3Q)**
 ![Screenshot](https://cdn.discordapp.com/attachments/847283544803508257/906081463571722270/unknown_2.png)
 
 # Setup
-```
-pip install --upgrade discord-components ```
+```pip install --upgrade discord-components ```
 
 Choose between the Main File or the Cog File
 
