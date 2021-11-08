@@ -19,9 +19,9 @@ If you need help, ask on the **[support server](https://discord.gg/xm9QX3Q)**
 **Please don't change the footer text of the embeds.**  
 **Don't forget to give a star if you like it :)**
 
-  • [Screenshots](https://github.com/Polsulpicien/discord.py-advanced-calculator/#:~:text=Screenshot)  
-  • [Setup](https://github.com/Polsulpicien/discord.py-advanced-calculator/#:~:text=Setup)  
-  • [License](https://github.com/Polsulpicien/discord.py-advanced-calculator/#:~:text=License) 
+  • [Screenshots](https://github.com/Polsulpicien/discord.py-advanced-calculator/#screenshots)  
+  • [Setup](https://github.com/Polsulpicien/discord.py-advanced-calculator/#setup)  
+  • [License](https://github.com/Polsulpicien/discord.py-advanced-calculator/#license) 
 
 ## Screenshots
 
