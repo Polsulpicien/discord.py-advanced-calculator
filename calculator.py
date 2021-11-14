@@ -31,7 +31,7 @@ SOFTWARE.
 import discord
 from discord.ext import commands
 
-from discord_components import Button, ButtonStyle, InteractionType
+from discord_components import Button, ButtonStyle
 from math import *
 import asyncio
 
