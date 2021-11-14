@@ -147,8 +147,7 @@ def input_formatter(original:str, new:str):
     original=''.join(lst)
     return original
   
-  class Calculator(commands.Cog):
-    
+class Calculator(commands.Cog):
     def __init__(self, client):
         self.client = client
         self.buttons_one = [
