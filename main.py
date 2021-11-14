@@ -31,10 +31,7 @@ from discord_components import DiscordComponents, Button, ButtonStyle
 from math import *
 import asyncio
 
-intents = discord.Intents(
-    guild_messages=True
-)
-client = commands.Bot(command_prefix = "&", intents=intents)
+client = commands.Bot(command_prefix = "&", intents=discord.Intents.all())
 
 def calculate(exp:str):
     result=''
