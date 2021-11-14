@@ -20,7 +20,7 @@
   
 This was the first version of the calculator, made for my discord bot, **[Polsu](https://github.com/Polsu-Discord)** using discord-components.  
 
-If you need help, ask on the **[support server](https://discord.gg/xm9QX3Q)**  
+If you want to try the calculator or need help, join the **[support server](https://discord.gg/xm9QX3Q)**  
 **Please don't change the footer text of the embeds.**  
 **Don't forget to give a star if you like it :)**
 
