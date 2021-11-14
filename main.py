@@ -27,7 +27,7 @@ SOFTWARE.
 import discord
 from discord.ext import commands
 
-from discord_components import Button, ButtonStyle, InteractionType
+from discord_components import DiscordComponents, Button, ButtonStyle, InteractionType
 from math import *
 import asyncio
 
@@ -226,6 +226,7 @@ async def on_ready():#loading bot and status
     print(client.user.id)
     print('------')
     print('Made by Polsulpicien#5020 | https://github.com/Polsulpicien')
+    DiscordComponents(client)
     await client.change_presence(status=discord.Status.online, activity=discord.Activity(name="github.com/Polsulpicien", type=discord.ActivityType.watching))
        
 @client.command((aliases=['calc', 'calculator'])
