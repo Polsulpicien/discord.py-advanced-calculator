@@ -27,7 +27,7 @@ SOFTWARE.
 import discord
 from discord.ext import commands
 
-from discord_components import DiscordComponents, Button, ButtonStyle, InteractionType
+from discord_components import DiscordComponents, Button, ButtonStyle
 from math import *
 import asyncio
 
@@ -229,7 +229,7 @@ async def on_ready():#loading bot and status
     DiscordComponents(client)
     await client.change_presence(status=discord.Status.online, activity=discord.Activity(name="github.com/Polsulpicien", type=discord.ActivityType.watching))
        
-@client.command((aliases=['calc', 'calculator'])
+@client.command(aliases=['calc', 'calculator'])
 @commands.max_concurrency(1, per=commands.BucketType.user)
 async def calcu(ctx):
     affichage='|'
