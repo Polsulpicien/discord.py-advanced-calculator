@@ -44,5 +44,9 @@ client.run("TOKEN")
 
 • For the Cog.py, you just need to add the file to your Bot's Cogs File.
 
+**If you get: 'Interaction Failed'**  
+Make sure to have `client = commands.Bot(command_prefix = "&", intents=discord.Intents.all()) ` (**intents=discord.Intents.all()**)
+in your main.py file!
+
 ## License
 This project is under the [MIT License](https://github.com/Polsulpicien/discord.py-advanced-calculator/blob/main/LICENSE).
