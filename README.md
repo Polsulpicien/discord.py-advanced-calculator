@@ -27,6 +27,7 @@ If you want to try the calculator or need help, join the **[support server](http
 ## Screenshots
 
 ![Screenshot](https://cdn.discordapp.com/attachments/847283544803508257/906081463571722270/unknown_2.png)
+![ScreenShot](https://media.discordapp.net/attachments/804945677833994240/939536298757210122/unknown.png)
 
 ## Setup
 
