@@ -43,7 +43,12 @@ Choose if you want between the [Main.py](https://github.com/Polsulpicien/discord
 client.run("TOKEN")
 ```
 
-• For the Cog.py, you just need to add the file to your Bot's Cogs File.
+• For the Cog.py, you just need to add the file to your Bot's Cogs File. You will also have to add this line to your `on_ready` event: `DiscordComponents(client)`, example:
+```py
+@client.event
+async def on_ready():
+    DiscordComponents(client)
+```
 
 **If you get: 'Interaction Failed'**  
 Make sure to have `client = commands.Bot(command_prefix = "&", intents=discord.Intents.all()) ` (**intents=discord.Intents.all()**)
