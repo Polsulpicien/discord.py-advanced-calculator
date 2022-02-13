@@ -31,14 +31,13 @@ If you want to try the calculator or need help, join the **[support server](http
 
 ## Setup
 
-__Step 1:__
-Install [Discord-Components](https://github.com/kiki7000/discord.py-components)
-```pip install --upgrade discord-components ```
-Install [TagScriptEngine](https://github.com/JonSnowbd/TagScript)
-```pip install TagScriptEngine```
+__Step 1:__ Install libraires:  
+Install [Discord-Components](https://github.com/kiki7000/discord.py-components)  
+```pip install --upgrade discord-components ```  
+Install [TagScriptEngine](https://github.com/JonSnowbd/TagScript)  
+```pip install TagScriptEngine```  
 
-__Step 2:__
-Choose if you want between the [Main.py](https://github.com/Polsulpicien/discord.py-advanced-calculator/blob/main/main.py) or the [Cog.py](https://github.com/Polsulpicien/discord.py-advanced-calculator/blob/main/calculator.py)
+__Step 2:__ Choose if you want between the [Main.py](https://github.com/Polsulpicien/discord.py-advanced-calculator/blob/main/main.py) or the [Cog.py](https://github.com/Polsulpicien/discord.py-advanced-calculator/blob/main/calculator.py)  
 
 • For the Main.py File, you need to add your Discord Bot Token (which you can find **[HERE](https://discord.com/developers/applications)**), to the **[last line](https://github.com/Polsulpicien/discord.py-advanced-calculator/blob/main/main.py#L328)**:
 ```py
@@ -53,9 +52,13 @@ async def on_ready():
 ```
 and of course, don't forget to import discord_components in your main file: `from discord_components import DiscordComponents`!
 
+• Error:  
 **If you get: 'Interaction Failed'**  
-Make sure to have `client = commands.Bot(command_prefix = "&", intents=discord.Intents.all()) ` (**intents=discord.Intents.all()**)
+Make sure to have `client = commands.Bot(command_prefix = "&", intents=discord.Intents.all())` (**intents=discord.Intents.all()**)
 in your main.py file!
+
+**Got another error ?**  
+Join the **[support server](https://discord.gg/xm9QX3Q)**  
 
 ## License
 This project is under the [MIT License](https://github.com/Polsulpicien/discord.py-advanced-calculator/blob/main/LICENSE).
