@@ -35,12 +35,12 @@ from TagScriptEngine import Interpreter, block
 class Calculator(commands.Cog):
     def __init__(self, client):
         self.client = client
-        self.blocks = [
+        blocks = [
             block.MathBlock(),
             block.RandomBlock(),
             block.RangeBlock(),
         ]
-        engine = Interpreter(blocks)
+        self.engine = Interpreter(blocks)
 
         self.data = {
             "1":"¹",
@@ -144,11 +144,11 @@ class Calculator(commands.Cog):
         expression = expression.replace("×", "*")
         expression = expression.replace("÷", "/")
 
-        for i in data:
-            if data[i] in expression:
-                expression = expression.replace(data[i], f"^{i}")
+        for i in self.data:
+            if self.data[i] in expression:
+                expression = expression.replace(self.data[i], f"^{i}")
 
-        result = engine.process("{m:"+expression+"}").body
+        result = self.engine.process("{m:"+expression+"}").body
         result = result.replace("{m:", "").replace("}", "")
 
         try:
@@ -179,7 +179,7 @@ class Calculator(commands.Cog):
         else:
             if len(lst)>1 and lst[index-1]=="^":
                 try:
-                    lst.insert(index, data[label])
+                    lst.insert(index, self.data[label])
                     lst.remove('^')
                     index-=1
                 except:
