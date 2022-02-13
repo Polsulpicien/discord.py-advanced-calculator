@@ -150,7 +150,6 @@ def calculate(expression:str):
     result = engine.process("{m:"+expression+"}").body
     result = result.replace("{m:", "").replace("}", "")
 
-    print(expression, result)
     try:
         result = f"{float(result):,}"
     except:
