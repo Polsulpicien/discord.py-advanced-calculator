@@ -8,7 +8,7 @@
         <a href="https://github.com/Polsulpicien/discord.py-advanced-calculator"><img src="https://img.shields.io/github/v/release/polsulpicien/discord.py-advanced-calculator?color=red&label=Version&logo=github&style=for-the-badge" alt="Version"></a>
 </div>
 <p align="center">
-    <h3>An Advanced Calculator maybe with Discord Buttons in python</h3>
+    <h3>[UPDATED!] An Advanced Calculator maybe with Discord Buttons in python</h3>
 </p>
 
   • [Introduction](https://github.com/Polsulpicien/discord.py-advanced-calculator/#introduction)  
@@ -34,6 +34,8 @@ If you want to try the calculator or need help, join the **[support server](http
 __Step 1:__
 Install [Discord-Components](https://github.com/kiki7000/discord.py-components)
 ```pip install --upgrade discord-components ```
+Install [TagScriptEngine](https://github.com/JonSnowbd/TagScript)
+```pip install TagScriptEngine```
 
 __Step 2:__
 Choose if you want between the [Main.py](https://github.com/Polsulpicien/discord.py-advanced-calculator/blob/main/main.py) or the [Cog.py](https://github.com/Polsulpicien/discord.py-advanced-calculator/blob/main/calculator.py)
@@ -49,6 +51,7 @@ client.run("TOKEN")
 async def on_ready():
     DiscordComponents(client)
 ```
+and of course, don't forget to import discord_components in your main file: `from discord_components import DiscordComponents`!
 
 **If you get: 'Interaction Failed'**  
 Make sure to have `client = commands.Bot(command_prefix = "&", intents=discord.Intents.all()) ` (**intents=discord.Intents.all()**)
